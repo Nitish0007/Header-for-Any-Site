@@ -31,7 +31,8 @@ margin: auto;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
-    font-family: monospace;
+    font-family: 'Architects Daughter', cursive;
+
     font-size: 32px;
 }
 
@@ -46,10 +47,13 @@ margin: auto;
 }
 
 .navigation a{
-    height: 100%;
+    margin: 25px;
+    /* height: 100%; */
     display: table;
+
     float: left;
     padding: 0px 20px;
+    cursor: pointer;
 }
 
 .navigation a:last-child{
@@ -61,7 +65,17 @@ padding-right: 0;
     vertical-align: middle;
     height: 100%;
     color: white;
-    font-family: monospace;
+    font-family: 'Architects Daughter', cursive;
+
     font-size: 16px;
 
+}
+.navigation a li:hover{
+    /* margin: 3px; */
+    border: 1px solid black;
+    /* height: 10px;
+    width: px; */
+    background-color: white;
+    color: black;
+    border-radius: 5px;
 }
